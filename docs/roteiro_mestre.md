@@ -1,18 +1,20 @@
-# 🌐 DIZIX: Ecossistema Modular de Valor por Esforço
+# 🌐 DIZIX Network: Ecossistema Modular de Valor por Esforço
 
-> 💡 **Moeda digital gerada por esforço, reutilizada com ética, valorizada por uso.**
+> 💡 **Onde o esforço gera DIZIX. E DIZIX gera liberdade.**
 > 
 > Um ecossistema **modular, independente, dinâmico**, onde cada componente funciona sozinho, mas se comunica quando necessário.
+> 
+> Moeda nativa: **DIZIX (DZX)** — conquistada com esforço, reutilizada com ética, valorizada pelo uso.
 
 ---
 
 ## 🧱 Arquitetura Modular (Estrutura do Projeto)
 
 <pre><code>
-/dizix-ecosystem/
+/dizix-network/
 ├── core/
 │   ├── token/               # Sistema de DIZIX (saldo interno ou blockchain futuro)
-│   ├── wallet/              # Gestão de saldos internos (banco de dados)
+│   ├── wallet/              # Gestão de saldos internos
 │   └── burn-engine/         # Queima dinâmica de taxas
 │
 ├── modules/
@@ -181,12 +183,12 @@ Cada módulo:
 
 ## 🚀 Próximos Passos
 
-1. ✅ Crie a estrutura de pastas.
-2. ✅ Implemente `core/wallet/` e `core/token/`.
-3. ✅ Desenvolva `modules/ptc/` como primeiro módulo.
-4. ✅ Conecte com `engine/dynamic-fee/` e `core/burn-engine/`.
-5. ✅ Lance `exchange/mini-exchange/` com swap DIZIX/USDT.
-6. ✅ Use `config/monetary-policy.json` para ajustar regras.
+1. ✅ Crie a estrutura de pastas: `mkdir dizix-network && cd dizix-network`
+2. ✅ Inicie com `core/token/` e `core/wallet/`
+3. ✅ Implemente `modules/ptc/` como primeiro módulo de ganho
+4. ✅ Conecte ao `engine/dynamic-fee/` e `core/burn-engine/`
+5. ✅ Lance `exchange/mini-exchange/` com swap DIZIX/USDT
+6. ✅ Use `config/monetary-policy.json` para ajustar regras
 
 ---
 
@@ -211,19 +213,20 @@ Cada módulo:
 
 ## 🏁 Conclusão
 
-Este ecossistema:
-- ✅ É **modular** — cada parte é independente.
-- ✅ É **dinâmico** — taxas e valor se adaptam.
-- ✅ É **ético** — só DIZIX de esforço circula.
-- ✅ É **escalável** — pode ir para blockchain depois.
-- ✅ É **seu** — você controla a evolução.
+**DIZIX Network** é:
+- ✅ Um ecossistema justo, onde **só entra quem trabalha**.
+- ✅ Uma moeda com valor real, gerado por uso.
+- ✅ Modular, para evoluir sem quebrar.
+- ✅ Preparado para escalar para blockchain própria no futuro.
 
-> 🌱 **DIZIX nasce no seu servidor, amadurece com uso, e um dia vira blockchain.**
+> 🌱 **DIZIX nasce no seu servidor.  
+> Amadurece com esforço.  
+> Um dia, vira blockchain.**
 
 ---
 
-💾 **Salve este arquivo como `README.md`.**  
+💾 **Salve este arquivo como `README.md` dentro de `/dizix-network`.**  
 🔧 Atualize conforme evolui.  
 🚀 Compartilhe com quem ajudar.
 
-> **DIZIX: a moeda que respeita quem trabalha.**
+> **DIZIX Network: Onde o esforço vira liberdade.**
